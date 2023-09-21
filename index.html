@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card DOM JS</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+  <section class="card">
+    <div class="card__image">
+      <img src="./assets/mercedez_black.webp">
+    </div>
+    <div class="card__description">
+      <h2>Mercedez Benz C300 2023</h2>
+      <p>Kilometraje: 4.000 millas</p>
+      <p>Combustible: 25mpg</p>
+      <p>Seguridad: ⭐⭐⭐⭐⭐</p>
+      <div class="card__info">
+        <div>
+          <h3>Escoge un color:</h3>
+          <div class="card__colors">
+            <span class="red"></span>
+            <span class="gray"></span>
+            <span class="black"></span>
+          </div>
+        </div>
+        <div class="card__price">
+          $134,450.00
+        </div>
+      </div>
+    </div>
+    <div class="card__buttons">
+      <button id="button" class="card__button">Add to Cart</button>
+      <button id="feedback" class="card__button card__button--feedback">
+        🎉¡Excelente elección! 😍
+      </button>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
